@@ -3,7 +3,7 @@ var format = document.querySelector('.format');
 
 function download() {
     if(link.value!=""){
-        var url1 = link.value.replace("https://youtube.be/","https://www.youtube.com/embed/");
+        var url1 = link.value.replace("https://facebook.be/","https://www.facebook.com/embed/");
 
         document.querySelector('.result1').innerHTML = `<iframe width="100%" height="190" src="${url1}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen><iframe>`;
 
